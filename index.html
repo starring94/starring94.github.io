@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Első weboldalunk</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="kepek/hatter.jpg" class="fullscreen_bg-video">
+           <source src="kepek/hattervid.mp4"> 
+        </video>
+    </div>
+
+    <div>
+        <img class="logocska" src="kepek/logo.png" alt="Text-Space">
+    </div>
+
+    <div class="fejlec vkozepre">
+        <a href="#">Főoldal</a>
+        <a href="#">Galéria</a>
+        <a href="#">GYIK</a>
+        <a href="#">Kapcsolat</a>
+    </div>
+
+    <div class="vfkozepre">
+        <div class="cim">Üdvözöllek az első weboldalamon</div>
+        <div class="gombdoboz">
+            <a href="#"><div class="gomb">Főoldal</div></a> 
+            <a href="#" onclick="toggleMunkaim()"><div class="gomb">Munkáim</div></a>
+            <a href="#"><div class="gomb">Galéria</div></a> 
+        </div>
+        <div id="videos" class="v-hide">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U4IHZGJWyAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/paDQLAoL0Sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/og5jBXw3QTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hdPJm0N0sgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V7h7v00C-CM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qj_sK-PUTL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HA4VsZ01ji0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BU8piVuObOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hTIP5Fh0EXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="lablec vkozepre">
+        2020 || Minden jog fenntartva
+    </div>
+</body>
+</html>
